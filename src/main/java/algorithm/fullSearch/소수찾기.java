@@ -41,12 +41,10 @@ public class 소수찾기 {
         if (number == 1 || number == 0) {
             return false;
         }
-        int n = 2;
-        while (n < number) {
-            if (number % n == 0) {
+        for (int i = 2; i <= (int) Math.sqrt(number); i++) {
+            if (number % i == 0) {
                 return false;
             }
-            n++;
         }
         return true;
     }
