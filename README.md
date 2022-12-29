@@ -1,5 +1,3 @@
 # java-practice
-자바로 프로그래밍을 연습하는 공간    
-
-1. 알고리즘
-2. 우테코4기 리마인드
+My own playground   
+Thank U
